@@ -13,19 +13,22 @@ What this code does:
 * Write an image called `out.png` with the above data.
 
 
-All this is wrapped up with a simple command line interface using a bash script and imgcat to be able to see the images in the terminal window.
+All this is wrapped up with a simple command line interface using a bash script and `imgcat` to be able to see the images in the terminal window.
 
 
 ---
 
 ## Usage 
 
+`export AWS_ACCESS_KEY="<your aws access key>"`
+`export AWS_SECRET_KEY="<your aws secret key>"`
+
 `compare-faces.sh <name>`
 
 ![Rekognition example](images/f1.jpg)
 ![Rekognition example](images/f2.jpg)
 
-Where name can be: `anna|patrick|pocholo` or the folder name you create with two pictures (`foto1.jpg` and `foto2.jpg`)
+Where `<name>` can be: `anna|patrick|pocholo` or even the folder name you create with the two pictures to compare (`foto1.png` and `foto2.png`)
 
 ```
 images
