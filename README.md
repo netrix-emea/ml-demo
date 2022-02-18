@@ -21,9 +21,12 @@ All this is wrapped up with a simple command line interface using a bash script 
 ## Usage 
 
 `export AWS_ACCESS_KEY="<your aws access key>"`
-`export AWS_SECRET_KEY="<your aws secret key>"`
+
+`export AWS_SECRET_ACCESS_KEY="<your aws secret key>"`
 
 `compare-faces.sh <name>`
+
+Example:
 
 ![Rekognition example](images/f1.jpg)
 ![Rekognition example](images/f2.jpg)
